@@ -29,6 +29,8 @@ Q.month = 1;
 // how many actions have been taken this month?
 Q.month_actions = 0;
 
+landtags_enabled = 1;
+
 Q.decay = 0;
 Q.decay_counter = 0;
 
@@ -1014,13 +1016,15 @@ Hyperinflation disabled.
 
 @enable_landtags
 view-if: landtags_enabled != 1
+choose-if: landtags_enabled = 1
 on-arrival: landtags_enabled = 1
 go-to: menu
 
 Landtags have been enabled.
 
 @disable_landtags
-view-if: landtags_enabled
+view-if: landtags_enabled = 1
+choose-if: landtags_enabled != 1
 on-arrival: landtags_enabled = 0
 go-to: menu
 
