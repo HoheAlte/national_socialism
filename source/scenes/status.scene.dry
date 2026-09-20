@@ -99,7 +99,7 @@ Revolutionary strength: [+ left_strength : strength +], dissent: [+ left_dissent
 
 Conservative strength: [+ center_strength : strength +], dissent: [+ center_dissent : dissent +]
 
-[? if neorevisionism > 0 : Junker strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
+[? if neorevisionism > 0 : Neuer Kämpfer strength: [+ neorevisionist_strength : strength +], dissent: [+ neorevisionist_dissent : dissent +] ?]
 
 
 @paramilitaries
