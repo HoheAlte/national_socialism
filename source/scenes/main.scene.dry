@@ -18,7 +18,7 @@ max-cards: 3
 
 - @party
 - @govt
-- @pres
+- @landtag
 - #advisor
 - @shuffle_leadership_pinned
 - @megatome
@@ -43,7 +43,7 @@ max-cards: 4
 
 - @party
 - @govt
-- @pres
+- @landtag
 - #advisor
 - @shuffle_leadership_pinned
 - @megatome
@@ -64,10 +64,10 @@ is-deck: true
 
 - #govt_affairs
 
-@pres
-title: Presidential Affairs
-view-if: president == "Braun" or president == "Schumacher" or president == "Juchacz"
-card-image: img/presidential_affairs.jpg
+@landtag
+title: Landtag Affairs
+view-if: time >= 2
+card-image: img/landtag.jpg
 is-deck: true
 
-- #pres_affairs
+- #landtag_affairs
