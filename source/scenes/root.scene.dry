@@ -8,7 +8,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= National Socialism: An Alternate History
 
 @start_menu_2
 
@@ -951,6 +951,8 @@ this.state.disableSaves = true;
 go-to: 1925_main
 
 @settings
+choose-if: false
+unavailable-subtitle: Later.
 subtitle: Enable or disable various features.
 
 For other, non-difficulty related tweaks.
